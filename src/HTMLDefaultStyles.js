@@ -12,7 +12,8 @@ export function generateDefaultBlockStyles (baseFontSize = BASE_FONT_SIZE) {
             marginBottom: baseFontSize
         },
         iframe: {
-            height: 200
+            height: 'auto',
+            width: '100%'
         },
         hr: {
             marginTop: baseFontSize / 2,
@@ -53,8 +54,9 @@ export function generateDefaultTextStyles (baseFontSize = BASE_FONT_SIZE) {
             marginBottom: baseFontSize / 2
         },
         p: {
-            marginTop: baseFontSize,
-            marginBottom: baseFontSize
+            marginTop: baseFontSize / 1.3,
+            marginBottom: baseFontSize / 1.3,
+            paddingHorizontal: 15
         }
     };
 }
